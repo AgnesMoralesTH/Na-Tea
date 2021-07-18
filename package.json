@@ -1,0 +1,25 @@
+{
+  "name": "na-tea",
+  "version": "1.0.0",
+  "description": "Na-Tea",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/app.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgnesMoralesTH/Na-Tea.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgnesMoralesTH/Na-Tea/issues"
+  },
+  "homepage": "https://github.com/AgnesMoralesTH/Na-Tea#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
